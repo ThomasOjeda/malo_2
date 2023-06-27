@@ -1,0 +1,29 @@
+.task {
+  display: flex;
+  height: 40px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  align-items: center;
+}
+
+.task input {
+  width: 20px;
+  height: 20px;
+}
+
+.task .task-name {
+  margin-left: 10px;
+  margin-right: 10px;
+  flex: 1;
+}
+
+.task input:checked + .task-name {
+  text-decoration: line-through;
+}
+
+.simple-border-style {
+  border: solid;
+  border-radius: 0px;
+  border-width: 3px;
+}
